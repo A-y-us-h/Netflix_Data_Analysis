@@ -1,44 +1,79 @@
 # Netflix Data Analysis
 
-## Objective
-Analyze the Netflix dataset of 10,000 movies to discover trends in content, genres, countries, ratings, and release years. EDA (Exploratory Data Analysis) is used. Using Data Preprocessing. Visualization of Data.
-
-## Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- MySQL (Planned)
-- Excel Online (Data Inspection)
-
-## Status
-🚧 Project in Progress
-
-# Netflix Data Analysis
-
 ## Project Overview
 
-Netflix is one of the world's leading streaming platforms, offering thousands of movies and TV shows across different genres and countries. This project analyzes a Netflix movie dataset using Python to identify trends, perform exploratory data analysis (EDA), and generate insights that could support data-driven business decisions.
+Netflix is one of the world's leading streaming platforms, offering thousands of movies and TV shows across different genres and countries. This project analyzes a Netflix movie dataset containing over 9,000 titles to uncover trends, perform exploratory data analysis (EDA), and generate insights that can support data-driven business decisions.
 
 ## Project Scenario
 
-Netflix is one of the world's leading streaming platforms and is well known for using Data Science, Artificial Intelligence (AI), and Machine Learning (ML) to understand user behavior, improve content recommendations, and support business decisions.
+Netflix is well known for using Data Science, Artificial Intelligence (AI), and Machine Learning (ML) to understand user behavior, improve content recommendations, and optimize business strategies.
 
-In this project, I take on the role of a Data Analyst and analyze a dataset containing over 9,000 Netflix titles. The dataset is inspected using Excel, stored and queried using MySQL, and analyzed in Python using pandas, NumPy, and matplotlib to uncover trends, answer business questions, and generate data-driven insights.
+In this project, I take on the role of a Data Analyst and analyze a Netflix movie dataset using Python. The data is inspected, cleaned, transformed, and visualized to identify patterns and answer key business questions.
+
+## Objectives
+
+* Perform data cleaning and preprocessing.
+* Explore trends in Netflix movie content.
+* Analyze genres, popularity, ratings, and release years.
+* Create visualizations to support findings.
+* Generate business-oriented insights from the dataset.
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
 ## Business Questions
 
-This project answers the following questions:
+This project aims to answer the following questions:
 
 1. What is the most frequent movie genre on Netflix?
-2. Which genres have the highest average votes?
-3. Which movie has the highest popularity, and what is its genre?
-4. Which movie has the lowest popularity, and what is its genre?
-5. Which release year has the highest number of movies?
+2. How are movies distributed across different vote average categories?
+3. Which movie genres have the highest average vote ratings?
+4. Which movie has the highest popularity, and what is its genre?
+5. Which movie has the lowest popularity, and what is its genre?
+6. Which release year has the highest number of movies?
 
-### Libraries Used 
+## Key Insights
 
-1. Numpy
-2. Pandas 
-3. Matplotlib
-4. Seaborn
+*Insights will be added after completing the analysis.*
+
+## Data Cleaning Summary
+
+* No missing values or duplicate records were found.
+* Converted `Release_Date` to datetime format.
+* Extracted release years for analysis.
+* Removed irrelevant columns that were not required for analysis.
+* Cleaned and transformed the `Genre` column.
+* Used the `explode()` function to create one genre per row.
+* Categorized `Vote_Average` for better analysis.
+* Examined outliers in the `Popularity` column.
+
+## Project Structure
+
+```text
+Netflix-Data-Analysis/
+│
+├── data/
+│   └── mymoviedb.csv
+│
+├── notebooks/
+│   └── movie_data_analysis.ipynb
+│
+└── README.md
+```
+
+## Future Improvements
+
+* MySQL integration
+* Excel-based reporting
+* Additional business insights
+* Enhanced visualizations
+* Interactive dashboard development
+
+## Project Status
+
+Project in progress.
