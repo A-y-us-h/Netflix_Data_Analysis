@@ -22,7 +22,6 @@ In this project, I took the role of a Data Analyst and used Python to clean, tra
 
 * Python
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
 
@@ -105,4 +104,4 @@ Netflix-Data-Analysis/
 
 ## Project Status
 
-**Completed**
+**In Progress**
